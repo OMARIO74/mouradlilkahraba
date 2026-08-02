@@ -1,160 +1,39 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mourad Lil Kahraba</title>
-
 <style>
-body{
-    margin:0;
-    font-family:Arial,Helvetica,sans-serif;
-    background:#f5f5f5;
-    color:#333;
-}
-header{
-    background:#0b4ea2;
-    color:white;
-    text-align:center;
-    padding:40px 20px;
-}
-header h1{
-    margin:0;
-    font-size:40px;
-}
-header p{
-    font-size:20px;
-}
-section{
-    max-width:1100px;
-    margin:auto;
-    padding:40px 20px;
-}
-h2{
-    color:#0b4ea2;
-}
-.services{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:15px;
-}
-.card{
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,.1);
-}
-.gallery{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:15px;
-}
-.gallery img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
-    border-radius:10px;
-}
-.contact{
-    background:#0b4ea2;
-    color:white;
-    text-align:center;
-    padding:40px 20px;
-}
-.button{
-    display:inline-block;
-    margin:10px;
-    padding:12px 20px;
-    background:#ffc107;
-    color:#000;
-    text-decoration:none;
-    border-radius:8px;
-    font-weight:bold;
-}
-footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-</style>
-
-</head>
-<body>
-
-<header>
-<h1>⚡ Mourad Lil Kahraba</h1>
-<p>Installation • Maintenance • Dépannage Électrique</p>
-</header>
-
-<section>
-<h2>À propos</h2>
-<p>
-Mourad Lil Kahraba est spécialisé dans les travaux d'électricité pour les particuliers,
-les entreprises et les collectivités. Nous proposons des solutions fiables,
-rapides et sécurisées.
-</p>
-</section>
-
-<section>
-<h2>Nos Services</h2>
-
-<div class="services">
-
-<div class="card">
-<h3>⚡ Installation électrique</h3>
-<p>Installation complète de réseaux électriques.</p>
-</div>
-
-<div class="card">
-<h3>🔧 Dépannage</h3>
-<p>Intervention rapide pour tous types de pannes.</p>
-</div>
-
-<div class="card">
-<h3>💡 Éclairage public</h3>
-<p>Installation et maintenance d'éclairage public.</p>
-</div>
-
-<div class="card">
-<h3>🏠 Rénovation</h3>
-<p>Modernisation et mise en conformité des installations.</p>
-</div>
-
-</div>
-</section>
-
-<section>
-<h2>Galerie</h2>
-
-<div class="gallery">
-<img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80" alt="Électricien">
-<img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=900&q=80" alt="Lignes électriques">
-<img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80" alt="Tableau électrique">
-<img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=900&q=80" alt="Éclairage public">
-</div>
-
-</section>
-
-<div class="contact">
-
+body{font-family:Arial;margin:0;background:#f3f5f7;color:#222}
+header{background:#0b5cab;color:#fff;padding:40px;text-align:center}
+nav{background:#083b6f;padding:12px;text-align:center;position:sticky;top:0}
+nav a{color:#fff;margin:0 15px;text-decoration:none;font-weight:bold}
+section{max-width:1100px;margin:auto;padding:40px 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+img,video{width:100%;border-radius:10px;box-shadow:0 2px 8px #0003}
+.card{background:#fff;padding:16px;border-radius:10px}
+.contact{background:#0b5cab;color:#fff;text-align:center}
+.btn{display:inline-block;background:#ffc107;color:#000;padding:12px 18px;border-radius:8px;text-decoration:none;margin:8px}
+footer{background:#222;color:#fff;text-align:center;padding:20px}
+</style></head><body>
+<header><h1>⚡ Mourad Lil Kahraba</h1><p>Installation • Maintenance • Dépannage • Éclairage Public • Recyclage</p></header>
+<nav><a href="#elec">Électricité</a><a href="#recyclage">Recyclage</a><a href="#contact">Contact</a></nav>
+<section id="elec"><h2>Électricité publique</h2><div class="grid">
+<div class="card"><img src="image01.jpeg"></div>
+<div class="card"><img src="image02.jpeg"></div>
+<div class="card"><img src="image03.jpeg"></div>
+<div class="card"><img src="image05.jpeg"></div>
+<div class="card"><img src="image06.jpeg"></div>
+<div class="card"><video controls src="video01.mp4"></video></div>
+<div class="card"><video controls src="video02.mp4"></video></div>
+</div></section>
+<section id="recyclage"><h2>Recyclage</h2><div class="grid">
+<div class="card"><img src="image07.jpeg"></div>
+</div></section>
+<section id="contact" class="contact">
 <h2>Contact</h2>
-
 <p>📞 +213 559 59 54 14</p>
-
 <p>📧 mouradlilkahraba@gmail.com</p>
-
-<a class="button" href="tel:+213559595414">Appeler</a>
-
-<a class="button" href="mailto:mouradlilkahraba@gmail.com">Envoyer un e-mail</a>
-
-</div>
-
-<footer>
-
-© 2026 Mourad Lil Kahraba - Tous droits réservés.
-
-</footer>
-
-</body>
-</html>
+<a class="btn" href="tel:+213559595414">Appeler</a>
+<a class="btn" href="mailto:mouradlilkahraba@gmail.com">Envoyer un e-mail</a>
+</section>
+<footer>© 2026 Mourad Lil Kahraba</footer>
+</body></html>
